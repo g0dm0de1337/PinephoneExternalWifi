@@ -21,3 +21,7 @@ That works with kali, nethunter PRO, Mobian
 + sudo make dkms_install 
 + make && make install 
 + sudo apt-get install firmware-ath9k-htc 
+
+# FINISH !!
+
+put a network card in your Pinephone PRO via USB-C and have FUN
