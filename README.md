@@ -11,7 +11,7 @@ Wifi card chipset support:
 - > RTL8821AU RTL8812AU RTL8813AU
 - > many Atheros (example AR9271)
 
-That works with kali, nethunter PRO, Mobian
+That works with kali, nethunter PRO, Mobian, UbuntuTouch
 
 + sudo apt-get install build-essential linux-headers-$(uname -r) dkms unzip git
 + sudo apt-get install bc mokutil libelf-dev 
@@ -21,6 +21,7 @@ That works with kali, nethunter PRO, Mobian
 + sudo make dkms_install 
 + make && make install 
 + sudo apt-get install firmware-ath9k-htc 
++ sudo apt-get install firmware-atheros
 
 # FINISH !!
 
